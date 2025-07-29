@@ -69,3 +69,5 @@ elif play[user_choice] == 'Scissors':
         print(f'You chose {play[user_choice]} and computer chose {comp_choice}. Computer wins')
     elif comp_choice == 'Paper':
         print(f'You chose {play[user_choice]} and computer chose {comp_choice}. You win')
+else:
+    print('You chose something else')
